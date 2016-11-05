@@ -1,0 +1,40 @@
+body{
+	font-family: 'Indie Flower', cursive;
+}
+header{
+	background-color: #40BEF9;
+	height: 75px;
+	margin-bottom: 2%;
+}
+.pajaro{
+	width: 100%;
+}
+.formulario{
+}
+textarea { 
+  width: 100%;
+}
+.btn_personalizado{
+  padding: 0;
+  text-decoration: none;
+  width: 80px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #D02B55;
+  border-radius: 6px;
+  border: 1.5px solid #0016b0;
+}
+.btn_personalizado:hover{
+  color: #1883ba;
+  background-color: #ffffff;
+}
+.color{
+  color: #2A00FF;
+}
+.tachado{
+  text-decoration:line-through;
+}
+.espacio{
+  margin: 10px;
+}
