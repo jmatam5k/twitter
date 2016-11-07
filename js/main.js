@@ -12,16 +12,15 @@ function agregaPost(){
 		//se crea input
 		var crearInput = document.createElement('input');  // Crear un <button>
 		crearInput.setAttribute('type','checkbox'); // Se crea atributo de checkbox
-		
 		//se crea elemento 'me gusta'
 
 		var crearHeart = document.createElement('span');
 		crearHeart.setAttribute('type','button');
+		crearHeart.setAttribute('class','espacio');
 		
 		//se crea icono Corazón
 		var iconHeart= document.createElement('i');
 		iconHeart.setAttribute('class','fa fa-heart');
-
 		crearHeart.appendChild(iconHeart);// se concatena boton e icono
 
 		//se crea elemento eliminar
@@ -56,7 +55,7 @@ function agregaPost(){
 
 		//eliminar posteo
 		eliminar.addEventListener('click', function(){
- 		contenedorPosteos.removeChild(posteo);
- 	});
+			contenedorPosteos.removeChild(posteo);
+		});
 
 	}

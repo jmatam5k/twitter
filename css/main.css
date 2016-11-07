@@ -1,15 +1,17 @@
 body{
 	font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 }
 header{
 	background-color: #40BEF9;
 	height: 75px;
-	margin-bottom: 2%;
 }
 .pajaro{
 	width: 100%;
+  margin-top: 12px;
 }
 .formulario{
+  margin-top: 53px;
 }
 textarea { 
   width: 100%;
@@ -30,11 +32,45 @@ textarea {
   background-color: #ffffff;
 }
 .color{
-  color: #2A00FF;
+  color: #40BEF9;
 }
 .tachado{
   text-decoration:line-through;
 }
 .espacio{
-  margin: 10px;
+  margin: 15px;
+}
+/*perfil*/
+.fperfil{
+  background-color: #40BEF9;
+  height: 75px;
+
+}
+.perfil{
+  width: 135%;
+  margin-top: -50%;
+}
+.nombre{
+  font-family:'Rock Salt','Shrikhand', cursive;
+  color: #D71345;
+}
+.celeste{
+  background-color: #CBF1F5;
+  background-repeat: repeat;
+}
+.img-rounded{
+  border-radius: 30px;
+}
+.arroz{
+  width: 38%;
+  border: 5px solid #71C9CE;
+  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.arroz:hover {
+  margin-top: 2px;
 }
